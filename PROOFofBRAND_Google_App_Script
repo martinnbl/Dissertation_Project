@@ -1,0 +1,117 @@
+// Function to get only the latest uploaded file
+function getLatestFileOnly() {
+  const folder = DriveApp.getFolderById("1N86Le4d8qVUMwV48dWFJJAk-FPcgv8Ym");
+  const files = folder.getFiles();
+  const cache = CacheService.getScriptCache();
+  
+  let latestFile = null;
+  let latestDate = new Date(0); // Start with epoch
+  
+  // Find the most recently created file
+  while (files.hasNext()) {
+    const file = files.next();
+    const fileName = file.getName();
+    const fileDate = file.getDateCreated();
+    
+    // Only consider PDF and DOCX files
+    if ((fileName.endsWith('.pdf') || fileName.endsWith('.docx')) && fileDate > latestDate) {
+      latestFile = file;
+      latestDate = fileDate;
+    }
+  }
+  
+  if (!latestFile) {
+    Logger.log("📂 No PDF or DOCX files found in folder");
+    return;
+  }
+  
+  // Check if this is a new file we haven't processed
+  const lastProcessedFileId = cache.get("lastProcessedFileId");
+  const currentFileId = latestFile.getId();
+  
+  if (lastProcessedFileId === currentFileId) {
+    Logger.log("📂 Latest file already processed: " + latestFile.getName());
+    return;
+  }
+  
+  try {
+    // Make sure the file is publicly accessible
+    latestFile.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
+    Logger.log("✅ File sharing permissions set to 'Anyone with link can view'");
+    
+    // Wait a moment for permissions to propagate
+    Utilities.sleep(2000);
+    
+  } catch (error) {
+    Logger.log(`⚠️ Warning: Could not set file permissions: ${error.toString()}`);
+    // Continue anyway, maybe it's already shared
+  }
+  
+  // Process the latest file
+  const fileData = {
+    id: currentFileId,
+    name: latestFile.getName(),
+    url: `https://drive.google.com/uc?export=download&id=${currentFileId}`,
+    dateCreated: latestDate.toISOString(),
+    size: latestFile.getSize()
+  };
+  
+  Logger.log(`📁 Latest file found: ${fileData.name} (${fileData.dateCreated}), Size: ${fileData.size} bytes`);
+  
+  // Test the download URL before sending to webhook
+  try {
+    const testResponse = UrlFetchApp.fetch(fileData.url, {
+      method: "GET",
+      muteHttpExceptions: true,
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+      }
+    });
+    
+    const contentType = testResponse.getHeaders()['Content-Type'] || testResponse.getHeaders()['content-type'];
+    Logger.log(`🔍 Test download - Status: ${testResponse.getResponseCode()}, Content-Type: ${contentType}`);
+    
+    if (testResponse.getResponseCode() !== 200) {
+      Logger.log(`❌ File download test failed with status: ${testResponse.getResponseCode()}`);
+      return;
+    }
+    
+    if (contentType && contentType.includes('text/html')) {
+      Logger.log(`❌ File download returns HTML instead of PDF. File may not be properly shared.`);
+      return;
+    }
+    
+  } catch (error) {
+    Logger.log(`❌ Error testing file download: ${error.toString()}`);
+    return;
+  }
+  
+  // Send to webhook
+  const webhookUrl = "https://47ggofylg9.execute-api.eu-west-2.amazonaws.com/prod/webhook";
+  
+  const options = {
+    method: "POST",
+    contentType: "application/json",
+    payload: JSON.stringify({ latest_file: fileData }),
+    muteHttpExceptions: true
+  };
+  
+  try {
+    const response = UrlFetchApp.fetch(webhookUrl, options);
+    const responseCode = response.getResponseCode();
+    const responseBody = response.getContentText();
+    
+    Logger.log(`✅ Webhook response: ${responseCode}`);
+    Logger.log(`📤 Response body: ${responseBody}`);
+    
+    if (responseCode === 200) {
+      // Cache the processed file ID
+      cache.put("lastProcessedFileId", currentFileId, 21600); // 6 hours
+      Logger.log(`🚀 Successfully sent latest file: ${fileData.name}`);
+    } else {
+      Logger.log(`❌ Webhook failed with status: ${responseCode}`);
+    }
+  } catch (error) {
+    Logger.log(`❌ Webhook error: ${error.toString()}`);
+  }
+}
