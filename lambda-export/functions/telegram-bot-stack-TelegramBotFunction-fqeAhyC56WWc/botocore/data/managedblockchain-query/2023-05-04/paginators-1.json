@@ -1,34 +1,3 @@
-{
-  "pagination": {
-    "ListTokenBalances": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "tokenBalances"
-    },
-    "ListTransactionEvents": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "events"
-    },
-    "ListTransactions": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "transactions"
-    },
-    "ListAssetContracts": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "contracts"
-    },
-    "ListFilteredTransactionEvents": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "events"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:68b8450eace3eca4154c2e0c548468400a3ab432889eab65b0e9059af967fbba
+size 882

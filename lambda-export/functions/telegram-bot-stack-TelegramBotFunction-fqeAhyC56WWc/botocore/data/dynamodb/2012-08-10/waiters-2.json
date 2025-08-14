@@ -1,35 +1,3 @@
-{
-  "version": 2,
-  "waiters": {
-    "TableExists": {
-      "delay": 20,
-      "operation": "DescribeTable",
-      "maxAttempts": 25,
-      "acceptors": [
-        {
-          "expected": "ACTIVE",
-          "matcher": "path",
-          "state": "success",
-          "argument": "Table.TableStatus"
-        },
-        {
-          "expected": "ResourceNotFoundException",
-          "matcher": "error",
-          "state": "retry"
-        }
-      ]
-    },
-    "TableNotExists": {
-      "delay": 20,
-      "operation": "DescribeTable",
-      "maxAttempts": 25,
-      "acceptors": [
-        {
-          "expected": "ResourceNotFoundException",
-          "matcher": "error",
-          "state": "success"
-        }
-      ]
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1bf89a5d1df164fdccf25a4c475a259b6a7e12f2ba2274e274d667514a8f2fbd
+size 727

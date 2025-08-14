@@ -1,28 +1,3 @@
-{
-  "pagination": {
-    "ListAppAuthorizations": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "appAuthorizationSummaryList"
-    },
-    "ListAppBundles": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "appBundleSummaryList"
-    },
-    "ListIngestionDestinations": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "ingestionDestinations"
-    },
-    "ListIngestions": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "ingestions"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:01c78337d903b3cdf6b0b79bc974d0318cdaf9d319f26da1b15cb36eac545e74
+size 745

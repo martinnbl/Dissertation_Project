@@ -1,15 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing_extensions import Literal
-
-from .._models import BaseModel
-
-__all__ = ["FileDeleted"]
-
-
-class FileDeleted(BaseModel):
-    id: str
-
-    deleted: bool
-
-    object: Literal["file"]
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ffafd53b5ed853e711c0a3fe1acb51061a4736d5e511b7c32490805162241cc
+size 277

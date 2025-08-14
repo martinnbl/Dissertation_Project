@@ -1,19 +1,3 @@
-{
-  "pagination": {
-    "ListHapgs": {
-      "input_token": "NextToken",
-      "output_token": "NextToken",
-      "result_key": "HapgList"
-    },
-    "ListHsms": {
-      "input_token": "NextToken",
-      "output_token": "NextToken",
-      "result_key": "HsmList"
-    },
-    "ListLunaClients": {
-      "input_token": "NextToken",
-      "output_token": "NextToken",
-      "result_key": "ClientList"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5ef97d3a2647ea94434493edb99c4ff0feadd041791d32743970e1b534f8ba1
+size 409

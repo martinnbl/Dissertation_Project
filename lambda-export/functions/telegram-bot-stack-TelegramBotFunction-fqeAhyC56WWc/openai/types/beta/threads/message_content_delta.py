@@ -1,17 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing import Union
-from typing_extensions import Annotated, TypeAlias
-
-from ...._utils import PropertyInfo
-from .text_delta_block import TextDeltaBlock
-from .refusal_delta_block import RefusalDeltaBlock
-from .image_url_delta_block import ImageURLDeltaBlock
-from .image_file_delta_block import ImageFileDeltaBlock
-
-__all__ = ["MessageContentDelta"]
-
-MessageContentDelta: TypeAlias = Annotated[
-    Union[ImageFileDeltaBlock, TextDeltaBlock, RefusalDeltaBlock, ImageURLDeltaBlock],
-    PropertyInfo(discriminator="type"),
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:a3811d971f41b5d1f667838cc065965dec7cc228a39273518a127ec2ef0f0d44
+size 615

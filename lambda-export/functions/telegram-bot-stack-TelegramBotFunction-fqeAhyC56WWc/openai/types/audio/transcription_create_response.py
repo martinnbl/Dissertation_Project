@@ -1,11 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing import Union
-from typing_extensions import TypeAlias
-
-from .transcription import Transcription
-from .transcription_verbose import TranscriptionVerbose
-
-__all__ = ["TranscriptionCreateResponse"]
-
-TranscriptionCreateResponse: TypeAlias = Union[Transcription, TranscriptionVerbose]
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8f2c61fc85ef44749b6f05757e66b137d422d59e4e1b734550d62c51a0df029
+size 378

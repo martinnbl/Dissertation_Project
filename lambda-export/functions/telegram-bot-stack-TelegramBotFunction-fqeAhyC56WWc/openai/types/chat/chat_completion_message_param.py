@@ -1,22 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from __future__ import annotations
-
-from typing import Union
-from typing_extensions import TypeAlias
-
-from .chat_completion_tool_message_param import ChatCompletionToolMessageParam
-from .chat_completion_user_message_param import ChatCompletionUserMessageParam
-from .chat_completion_system_message_param import ChatCompletionSystemMessageParam
-from .chat_completion_function_message_param import ChatCompletionFunctionMessageParam
-from .chat_completion_assistant_message_param import ChatCompletionAssistantMessageParam
-
-__all__ = ["ChatCompletionMessageParam"]
-
-ChatCompletionMessageParam: TypeAlias = Union[
-    ChatCompletionSystemMessageParam,
-    ChatCompletionUserMessageParam,
-    ChatCompletionAssistantMessageParam,
-    ChatCompletionToolMessageParam,
-    ChatCompletionFunctionMessageParam,
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:4457abe19617c5579df45d2e964aa2d31372fde3a1a7add8fb4a0ddb87615412
+size 889

@@ -1,12 +1,3 @@
-from typing import Any
-from typing_extensions import Iterator, AsyncIterator
-
-
-def consume_sync_iterator(iterator: Iterator[Any]) -> None:
-    for _ in iterator:
-        ...
-
-
-async def consume_async_iterator(iterator: AsyncIterator[Any]) -> None:
-    async for _ in iterator:
-        ...
+version https://git-lfs.github.com/spec/v1
+oid sha256:48c0bdd1d88515e729120ff38034556dd4778521088155628f8b5a0fe9e830b3
+size 289

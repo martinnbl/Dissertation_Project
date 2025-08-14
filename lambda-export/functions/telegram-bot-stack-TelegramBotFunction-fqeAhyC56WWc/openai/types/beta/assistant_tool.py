@@ -1,15 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing import Union
-from typing_extensions import Annotated, TypeAlias
-
-from ..._utils import PropertyInfo
-from .function_tool import FunctionTool
-from .file_search_tool import FileSearchTool
-from .code_interpreter_tool import CodeInterpreterTool
-
-__all__ = ["AssistantTool"]
-
-AssistantTool: TypeAlias = Annotated[
-    Union[CodeInterpreterTool, FileSearchTool, FunctionTool], PropertyInfo(discriminator="type")
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:ff4142ec36f80adabfd322da289f77ccd4c1e47b61b89584007c777da743465c
+size 506

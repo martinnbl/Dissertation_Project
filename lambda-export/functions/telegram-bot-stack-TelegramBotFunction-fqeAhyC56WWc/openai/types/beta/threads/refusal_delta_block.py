@@ -1,18 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing import Optional
-from typing_extensions import Literal
-
-from ...._models import BaseModel
-
-__all__ = ["RefusalDeltaBlock"]
-
-
-class RefusalDeltaBlock(BaseModel):
-    index: int
-    """The index of the refusal part in the message."""
-
-    type: Literal["refusal"]
-    """Always `refusal`."""
-
-    refusal: Optional[str] = None
+version https://git-lfs.github.com/spec/v1
+oid sha256:6618050bc2aa03d2c8c28fc24085fec37555837563d21ef5c42d478756f09a75
+size 423

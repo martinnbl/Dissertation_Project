@@ -1,14 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from __future__ import annotations
-
-from typing import Union
-from typing_extensions import TypeAlias
-
-from .function_tool_param import FunctionToolParam
-from .file_search_tool_param import FileSearchToolParam
-from .code_interpreter_tool_param import CodeInterpreterToolParam
-
-__all__ = ["AssistantToolParam"]
-
-AssistantToolParam: TypeAlias = Union[CodeInterpreterToolParam, FileSearchToolParam, FunctionToolParam]
+version https://git-lfs.github.com/spec/v1
+oid sha256:e8371a5379cc8eeaeeaf656454861c09a44063540b42c7175e309dd191c71a1a
+size 501

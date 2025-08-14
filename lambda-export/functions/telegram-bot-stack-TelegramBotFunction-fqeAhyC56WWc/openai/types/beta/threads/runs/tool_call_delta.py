@@ -1,16 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing import Union
-from typing_extensions import Annotated, TypeAlias
-
-from ....._utils import PropertyInfo
-from .function_tool_call_delta import FunctionToolCallDelta
-from .file_search_tool_call_delta import FileSearchToolCallDelta
-from .code_interpreter_tool_call_delta import CodeInterpreterToolCallDelta
-
-__all__ = ["ToolCallDelta"]
-
-ToolCallDelta: TypeAlias = Annotated[
-    Union[CodeInterpreterToolCallDelta, FileSearchToolCallDelta, FunctionToolCallDelta],
-    PropertyInfo(discriminator="type"),
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:b79c05f27756df3f7d94717df3514bf88379c57052f69edea271fd6f1bcabbf7
+size 600

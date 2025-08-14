@@ -1,15 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing import List, Optional
-
-from ...._models import BaseModel
-from .annotation_delta import AnnotationDelta
-
-__all__ = ["TextDelta"]
-
-
-class TextDelta(BaseModel):
-    annotations: Optional[List[AnnotationDelta]] = None
-
-    value: Optional[str] = None
-    """The data that makes up the text."""
+version https://git-lfs.github.com/spec/v1
+oid sha256:d8415e402920fdc73c9d8109e81b58000dff4ea80c4db9845e832f2e3cda077e
+size 389

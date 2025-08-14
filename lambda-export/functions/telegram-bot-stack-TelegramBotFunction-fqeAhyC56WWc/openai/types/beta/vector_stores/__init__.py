@@ -1,11 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from __future__ import annotations
-
-from .file_list_params import FileListParams as FileListParams
-from .vector_store_file import VectorStoreFile as VectorStoreFile
-from .file_create_params import FileCreateParams as FileCreateParams
-from .vector_store_file_batch import VectorStoreFileBatch as VectorStoreFileBatch
-from .file_batch_create_params import FileBatchCreateParams as FileBatchCreateParams
-from .vector_store_file_deleted import VectorStoreFileDeleted as VectorStoreFileDeleted
-from .file_batch_list_files_params import FileBatchListFilesParams as FileBatchListFilesParams
+version https://git-lfs.github.com/spec/v1
+oid sha256:8177e6f15e407748ae79a0bf5681c3510bd277049f07393671037066576f634b
+size 671

@@ -1,11 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from .chat import Chat, AsyncChat
-from .completions import Completions, AsyncCompletions
-
-__all__ = [
-    "Completions",
-    "AsyncCompletions",
-    "Chat",
-    "AsyncChat",
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:77f7e9c853001b789100f21700d3df446e07b449ba53fb8c5187a9ed2923dae6
+size 263

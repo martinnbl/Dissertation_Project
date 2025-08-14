@@ -1,16 +1,3 @@
-{
-  "pagination": {
-    "DescribeEnvironmentMemberships": {
-      "result_key": "memberships",
-      "output_token": "nextToken",
-      "input_token": "nextToken",
-      "limit_key": "maxResults"
-    },
-    "ListEnvironments": {
-      "result_key": "environmentIds",
-      "output_token": "nextToken",
-      "input_token": "nextToken",
-      "limit_key": "maxResults"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9444fb13715612b2c0f089f6eb4a2d29faf7ffda154abe4e4ced7372b062dbcc
+size 380

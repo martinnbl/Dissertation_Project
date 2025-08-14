@@ -1,19 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing_extensions import Literal
-
-from ..._models import BaseModel
-
-__all__ = ["FineTuningJobEvent"]
-
-
-class FineTuningJobEvent(BaseModel):
-    id: str
-
-    created_at: int
-
-    level: Literal["info", "warn", "error"]
-
-    message: str
-
-    object: Literal["fine_tuning.job.event"]
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0290ed322262d99d940b794e061fa6325250c6db9a73b38d52096581fac77fa
+size 374

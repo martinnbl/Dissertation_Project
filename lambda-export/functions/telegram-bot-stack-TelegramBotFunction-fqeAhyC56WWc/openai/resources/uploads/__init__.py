@@ -1,33 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from .parts import (
-    Parts,
-    AsyncParts,
-    PartsWithRawResponse,
-    AsyncPartsWithRawResponse,
-    PartsWithStreamingResponse,
-    AsyncPartsWithStreamingResponse,
-)
-from .uploads import (
-    Uploads,
-    AsyncUploads,
-    UploadsWithRawResponse,
-    AsyncUploadsWithRawResponse,
-    UploadsWithStreamingResponse,
-    AsyncUploadsWithStreamingResponse,
-)
-
-__all__ = [
-    "Parts",
-    "AsyncParts",
-    "PartsWithRawResponse",
-    "AsyncPartsWithRawResponse",
-    "PartsWithStreamingResponse",
-    "AsyncPartsWithStreamingResponse",
-    "Uploads",
-    "AsyncUploads",
-    "UploadsWithRawResponse",
-    "AsyncUploadsWithRawResponse",
-    "UploadsWithStreamingResponse",
-    "AsyncUploadsWithStreamingResponse",
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e663759082f508d9b3770a37d61d640e93b5140ba3b39daf7bfe51e1aeb4520
+size 810

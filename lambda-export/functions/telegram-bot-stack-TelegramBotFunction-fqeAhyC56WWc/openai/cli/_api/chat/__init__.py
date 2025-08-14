@@ -1,13 +1,3 @@
-from __future__ import annotations
-
-from typing import TYPE_CHECKING
-from argparse import ArgumentParser
-
-from . import completions
-
-if TYPE_CHECKING:
-    from argparse import _SubParsersAction
-
-
-def register(subparser: _SubParsersAction[ArgumentParser]) -> None:
-    completions.register(subparser)
+version https://git-lfs.github.com/spec/v1
+oid sha256:321154407f45e900ad6cf3256ec53f0d64ddef07390d2099ed6cb71411958a3d
+size 300

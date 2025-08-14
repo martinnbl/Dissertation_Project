@@ -1,9 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing_extensions import Literal, TypeAlias
-
-__all__ = ["ModerationModel"]
-
-ModerationModel: TypeAlias = Literal[
-    "omni-moderation-latest", "omni-moderation-2024-09-26", "text-moderation-latest", "text-moderation-stable"
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:0457aa4b27a5d8ccb658a0ba3026bf980207271e2e5d4dfea7c50db9d24035e3
+size 319

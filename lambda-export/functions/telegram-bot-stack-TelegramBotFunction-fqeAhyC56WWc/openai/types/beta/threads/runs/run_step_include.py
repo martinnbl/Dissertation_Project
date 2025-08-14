@@ -1,7 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing_extensions import Literal, TypeAlias
-
-__all__ = ["RunStepInclude"]
-
-RunStepInclude: TypeAlias = Literal["step_details.tool_calls[*].file_search.results[*].content"]
+version https://git-lfs.github.com/spec/v1
+oid sha256:bbef42c3586bb91896afbd1ffe1c385c6d30d5cc0e0187d12582af6b674469cb
+size 264

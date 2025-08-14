@@ -1,6 +1,3 @@
-# This module is provided for backwards compatibility with
-# googleapis-common-protos <= 1.5.0, where this was the import path.
-
-from __future__ import absolute_import
-
-from google.longrunning.operations_proto_pb2 import *  # noqa: F401, F403
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc87bb4685597e3b12ecc499078f3b18630807fe7fefefac4ff732b7c7281829
+size 243

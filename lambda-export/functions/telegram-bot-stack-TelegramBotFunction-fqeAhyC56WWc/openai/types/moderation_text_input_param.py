@@ -1,15 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from __future__ import annotations
-
-from typing_extensions import Literal, Required, TypedDict
-
-__all__ = ["ModerationTextInputParam"]
-
-
-class ModerationTextInputParam(TypedDict, total=False):
-    text: Required[str]
-    """A string of text to classify."""
-
-    type: Required[Literal["text"]]
-    """Always `text`."""
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ab7426c171d6942dff1b905bb39122ae915f5e9eb20d4a3356bdbee6d0b8d98
+size 406

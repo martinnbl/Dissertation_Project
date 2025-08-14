@@ -1,34 +1,3 @@
-{
-  "pagination": {
-    "DescribeBackups": {
-      "input_token": "NextToken",
-      "limit_key": "MaxResults",
-      "output_token": "NextToken",
-      "result_key": "Backups"
-    },
-    "DescribeFileSystems": {
-      "input_token": "NextToken",
-      "limit_key": "MaxResults",
-      "output_token": "NextToken",
-      "result_key": "FileSystems"
-    },
-    "ListTagsForResource": {
-      "input_token": "NextToken",
-      "limit_key": "MaxResults",
-      "output_token": "NextToken",
-      "result_key": "Tags"
-    },
-    "DescribeStorageVirtualMachines": {
-      "input_token": "NextToken",
-      "output_token": "NextToken",
-      "limit_key": "MaxResults",
-      "result_key": "StorageVirtualMachines"
-    },
-    "DescribeVolumes": {
-      "input_token": "NextToken",
-      "output_token": "NextToken",
-      "limit_key": "MaxResults",
-      "result_key": "Volumes"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e81c06a0c90167b6f61a66ad6b76443354a0bec9db72bde1d86f9eebadb6b2c0
+size 884

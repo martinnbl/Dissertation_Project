@@ -1,15 +1,3 @@
-{
-  "pagination": {
-    "Retrieve": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "result_key": "retrievalResults"
-    },
-    "GetAgentMemory": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxItems",
-      "result_key": "memoryContents"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5de7bc0c56e984ef19de9cd4cf81a2256e842966884ce9f1c2a1ecc71988ebc0
+size 326

@@ -1,12 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from __future__ import annotations
-
-from typing_extensions import Literal, Required, TypedDict
-
-__all__ = ["CodeInterpreterToolParam"]
-
-
-class CodeInterpreterToolParam(TypedDict, total=False):
-    type: Required[Literal["code_interpreter"]]
-    """The type of tool being defined: `code_interpreter`"""
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fa9b0cc5c99c7544228461b0423ece2487fb59931171c9d3cc2b8c8534990bb
+size 389

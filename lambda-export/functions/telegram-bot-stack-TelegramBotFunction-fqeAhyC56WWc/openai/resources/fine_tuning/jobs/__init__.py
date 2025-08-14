@@ -1,33 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from .jobs import (
-    Jobs,
-    AsyncJobs,
-    JobsWithRawResponse,
-    AsyncJobsWithRawResponse,
-    JobsWithStreamingResponse,
-    AsyncJobsWithStreamingResponse,
-)
-from .checkpoints import (
-    Checkpoints,
-    AsyncCheckpoints,
-    CheckpointsWithRawResponse,
-    AsyncCheckpointsWithRawResponse,
-    CheckpointsWithStreamingResponse,
-    AsyncCheckpointsWithStreamingResponse,
-)
-
-__all__ = [
-    "Checkpoints",
-    "AsyncCheckpoints",
-    "CheckpointsWithRawResponse",
-    "AsyncCheckpointsWithRawResponse",
-    "CheckpointsWithStreamingResponse",
-    "AsyncCheckpointsWithStreamingResponse",
-    "Jobs",
-    "AsyncJobs",
-    "JobsWithRawResponse",
-    "AsyncJobsWithRawResponse",
-    "JobsWithStreamingResponse",
-    "AsyncJobsWithStreamingResponse",
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:fec9a5af08a364e09cb035aa2a7a1f2f140cd902ee719cd781ba0bf732413c7c
+size 849

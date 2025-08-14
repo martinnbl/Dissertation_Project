@@ -1,19 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from __future__ import annotations
-
-from typing import List
-from typing_extensions import Required, TypedDict
-
-__all__ = ["UploadCompleteParams"]
-
-
-class UploadCompleteParams(TypedDict, total=False):
-    part_ids: Required[List[str]]
-    """The ordered list of Part IDs."""
-
-    md5: str
-    """
-    The optional md5 checksum for the file contents to verify if the bytes uploaded
-    matches what you expect.
-    """
+version https://git-lfs.github.com/spec/v1
+oid sha256:ece9fe89502503da7f9e4b0b4853c13d1e106c1d3112d016fac93287b4bd811d
+size 504

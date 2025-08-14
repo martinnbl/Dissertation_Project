@@ -1,12 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from __future__ import annotations
-
-from typing_extensions import Required, TypedDict
-
-__all__ = ["AssistantToolChoiceFunctionParam"]
-
-
-class AssistantToolChoiceFunctionParam(TypedDict, total=False):
-    name: Required[str]
-    """The name of the function to call."""
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8edfcdbbecb8526aa395853a7485a1cfd199d54cba4406f70b25ae4c468ef01
+size 355

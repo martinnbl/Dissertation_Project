@@ -1,10 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing import Union
-from typing_extensions import Literal, TypeAlias
-
-from .assistant_tool_choice import AssistantToolChoice
-
-__all__ = ["AssistantToolChoiceOption"]
-
-AssistantToolChoiceOption: TypeAlias = Union[Literal["none", "auto", "required"], AssistantToolChoice]
+version https://git-lfs.github.com/spec/v1
+oid sha256:8eb5cc77f218210d69b7c2e473e2ab3dde02477951f2c155e26eff9691bc0386
+size 362

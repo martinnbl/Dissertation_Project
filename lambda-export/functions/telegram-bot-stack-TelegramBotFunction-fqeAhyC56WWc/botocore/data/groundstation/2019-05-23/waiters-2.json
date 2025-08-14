@@ -1,22 +1,3 @@
-{
-  "version" : 2,
-  "waiters" : {
-    "ContactScheduled" : {
-      "description" : "Waits until a contact has been scheduled",
-      "delay" : 5,
-      "maxAttempts" : 180,
-      "operation" : "DescribeContact",
-      "acceptors" : [ {
-        "matcher" : "path",
-        "argument" : "contactStatus",
-        "state" : "failure",
-        "expected" : "FAILED_TO_SCHEDULE"
-      }, {
-        "matcher" : "path",
-        "argument" : "contactStatus",
-        "state" : "success",
-        "expected" : "SCHEDULED"
-      } ]
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ee6b2052b748105771e38c5c6ba9981408b4a8e83c411b9a9bf804b14b7a0a1
+size 534

@@ -1,16 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from __future__ import annotations
-
-from typing_extensions import Literal, Required, TypedDict
-
-from ..shared_params.function_definition import FunctionDefinition
-
-__all__ = ["ChatCompletionToolParam"]
-
-
-class ChatCompletionToolParam(TypedDict, total=False):
-    function: Required[FunctionDefinition]
-
-    type: Required[Literal["function"]]
-    """The type of the tool. Currently, only `function` is supported."""
+version https://git-lfs.github.com/spec/v1
+oid sha256:27daf64c05b28242010c89d610ac76f60044d3088281cec7a57172421c529005
+size 503

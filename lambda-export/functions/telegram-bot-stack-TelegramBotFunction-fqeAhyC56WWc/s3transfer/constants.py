@@ -1,30 +1,3 @@
-# Copyright 2018 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-#
-# Licensed under the Apache License, Version 2.0 (the "License"). You
-# may not use this file except in compliance with the License. A copy of
-# the License is located at
-#
-# http://aws.amazon.com/apache2.0/
-#
-# or in the "license" file accompanying this file. This file is
-# distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
-# ANY KIND, either express or implied. See the License for the specific
-# language governing permissions and limitations under the License.
-import s3transfer
-
-KB = 1024
-MB = KB * KB
-GB = MB * KB
-
-ALLOWED_DOWNLOAD_ARGS = [
-    'ChecksumMode',
-    'VersionId',
-    'SSECustomerAlgorithm',
-    'SSECustomerKey',
-    'SSECustomerKeyMD5',
-    'RequestPayer',
-    'ExpectedBucketOwner',
-]
-
-USER_AGENT = 's3transfer/%s' % s3transfer.__version__
-PROCESS_USER_AGENT = '%s processpool' % USER_AGENT
+version https://git-lfs.github.com/spec/v1
+oid sha256:5831c0cedbd2de1f5bccd2ca64ac3f3b721f3434849ec5e4a472ee6c79e79891
+size 910

@@ -1,22 +1,3 @@
-{
-  "pagination": {
-    "ListChannels": {
-      "input_token": "NextToken",
-      "output_token": "NextToken",
-      "limit_key": "MaxResults",
-      "result_key": "Channels"
-    },
-    "ListOriginEndpoints": {
-      "input_token": "NextToken",
-      "output_token": "NextToken",
-      "limit_key": "MaxResults",
-      "result_key": "OriginEndpoints"
-    },
-    "ListHarvestJobs": {
-      "input_token": "NextToken",
-      "output_token": "NextToken",
-      "limit_key": "MaxResults",
-      "result_key": "HarvestJobs"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e4cdefdcca7d2aeedd68e0f1e97f4efd5ba8c4fe0ee5f2d1907fbc7eb77a1cb
+size 531

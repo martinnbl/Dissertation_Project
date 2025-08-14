@@ -1,28 +1,3 @@
-{
-  "pagination": {
-    "ListServices": {
-      "result_key": "Services",
-      "output_token": "NextToken",
-      "input_token": "NextToken",
-      "limit_key": "MaxResults"
-    },
-    "ListInstances": {
-      "result_key": "Instances",
-      "output_token": "NextToken",
-      "input_token": "NextToken",
-      "limit_key": "MaxResults"
-    },
-    "ListNamespaces": {
-      "result_key": "Namespaces",
-      "output_token": "NextToken",
-      "input_token": "NextToken",
-      "limit_key": "MaxResults"
-    },
-    "ListOperations": {
-      "result_key": "Operations",
-      "output_token": "NextToken",
-      "input_token": "NextToken",
-      "limit_key": "MaxResults"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b0abbe8fe5811d3f0aa627a6638be02e242457551bd86b6a2db6225317648e31
+size 683

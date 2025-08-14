@@ -1,26 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from __future__ import annotations
-
-from typing_extensions import Literal, Required, TypedDict
-
-__all__ = ["ChatCompletionContentPartImageParam", "ImageURL"]
-
-
-class ImageURL(TypedDict, total=False):
-    url: Required[str]
-    """Either a URL of the image or the base64 encoded image data."""
-
-    detail: Literal["auto", "low", "high"]
-    """Specifies the detail level of the image.
-
-    Learn more in the
-    [Vision guide](https://platform.openai.com/docs/guides/vision/low-or-high-fidelity-image-understanding).
-    """
-
-
-class ChatCompletionContentPartImageParam(TypedDict, total=False):
-    image_url: Required[ImageURL]
-
-    type: Required[Literal["image_url"]]
-    """The type of the content part."""
+version https://git-lfs.github.com/spec/v1
+oid sha256:3831dc5a97bc4c85d94075c784411a72b4479bf4c26855999e697e6c3f395e25
+size 797

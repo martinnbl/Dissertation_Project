@@ -1,14 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from __future__ import annotations
-
-from typing import Union
-from typing_extensions import Literal, TypeAlias
-
-from .chat_completion_named_tool_choice_param import ChatCompletionNamedToolChoiceParam
-
-__all__ = ["ChatCompletionToolChoiceOptionParam"]
-
-ChatCompletionToolChoiceOptionParam: TypeAlias = Union[
-    Literal["none", "auto", "required"], ChatCompletionNamedToolChoiceParam
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:79fef559233d1cc421210528711815254556f9b491c0adbfd4d8c5481e533e22
+size 472

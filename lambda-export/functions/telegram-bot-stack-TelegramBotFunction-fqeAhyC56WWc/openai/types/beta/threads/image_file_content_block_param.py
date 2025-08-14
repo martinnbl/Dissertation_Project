@@ -1,16 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from __future__ import annotations
-
-from typing_extensions import Literal, Required, TypedDict
-
-from .image_file_param import ImageFileParam
-
-__all__ = ["ImageFileContentBlockParam"]
-
-
-class ImageFileContentBlockParam(TypedDict, total=False):
-    image_file: Required[ImageFileParam]
-
-    type: Required[Literal["image_file"]]
-    """Always `image_file`."""
+version https://git-lfs.github.com/spec/v1
+oid sha256:debc99e8057e0cbc166153f65d22b5d541e4beeb53528965c67eb3f01678ad20
+size 445

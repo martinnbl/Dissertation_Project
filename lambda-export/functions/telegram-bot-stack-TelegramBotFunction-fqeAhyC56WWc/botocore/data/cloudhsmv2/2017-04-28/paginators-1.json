@@ -1,22 +1,3 @@
-{
-  "pagination": {
-    "DescribeBackups": {
-      "result_key": "Backups",
-      "output_token": "NextToken",
-      "input_token": "NextToken",
-      "limit_key": "MaxResults"
-    },
-    "DescribeClusters": {
-      "result_key": "Clusters",
-      "output_token": "NextToken",
-      "input_token": "NextToken",
-      "limit_key": "MaxResults"
-    },
-    "ListTags": {
-      "result_key": "TagList",
-      "output_token": "NextToken",
-      "input_token": "NextToken",
-      "limit_key": "MaxResults"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:56f0a78eb7681b3dcb6fe822e5848e0218401f3079d22d2f224b3419a0369d2d
+size 512

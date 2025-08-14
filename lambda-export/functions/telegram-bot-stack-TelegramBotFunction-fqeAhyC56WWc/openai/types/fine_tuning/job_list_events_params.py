@@ -1,15 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from __future__ import annotations
-
-from typing_extensions import TypedDict
-
-__all__ = ["JobListEventsParams"]
-
-
-class JobListEventsParams(TypedDict, total=False):
-    after: str
-    """Identifier for the last event from the previous pagination request."""
-
-    limit: int
-    """Number of events to retrieve."""
+version https://git-lfs.github.com/spec/v1
+oid sha256:e313840f81f6932da623db080f2b6399f273e5b34074d59bef45886ffd1b056b
+size 400

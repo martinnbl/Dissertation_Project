@@ -1,16 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from __future__ import annotations
-
-from typing import Union
-from typing_extensions import Literal, TypeAlias
-
-from ..shared_params.response_format_text import ResponseFormatText
-from ..shared_params.response_format_json_object import ResponseFormatJSONObject
-from ..shared_params.response_format_json_schema import ResponseFormatJSONSchema
-
-__all__ = ["AssistantResponseFormatOptionParam"]
-
-AssistantResponseFormatOptionParam: TypeAlias = Union[
-    Literal["auto"], ResponseFormatText, ResponseFormatJSONObject, ResponseFormatJSONSchema
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:7723cc8704522c167496da71883eca33ef57e81cd69db19e1be9d3ff749e9ee4
+size 628

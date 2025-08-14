@@ -1,25 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from __future__ import annotations
-
-from typing import Union, Iterable
-from typing_extensions import Literal, Required, TypedDict
-
-from .chat_completion_content_part_text_param import ChatCompletionContentPartTextParam
-
-__all__ = ["ChatCompletionSystemMessageParam"]
-
-
-class ChatCompletionSystemMessageParam(TypedDict, total=False):
-    content: Required[Union[str, Iterable[ChatCompletionContentPartTextParam]]]
-    """The contents of the system message."""
-
-    role: Required[Literal["system"]]
-    """The role of the messages author, in this case `system`."""
-
-    name: str
-    """An optional name for the participant.
-
-    Provides the model information to differentiate between participants of the same
-    role.
-    """
+version https://git-lfs.github.com/spec/v1
+oid sha256:598b739ac34ff1923721ef1c77ea14ed1b8da1a045ebe6c147798ecd24fd84cc
+size 815

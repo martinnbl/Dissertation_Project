@@ -1,12 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from __future__ import annotations
-
-from typing_extensions import Literal, Required, TypedDict
-
-__all__ = ["AutoFileChunkingStrategyParam"]
-
-
-class AutoFileChunkingStrategyParam(TypedDict, total=False):
-    type: Required[Literal["auto"]]
-    """Always `auto`."""
+version https://git-lfs.github.com/spec/v1
+oid sha256:85b06d0119095d2244effe11a82f99477362ced529f52e16b86decdd6d06a6a6
+size 351

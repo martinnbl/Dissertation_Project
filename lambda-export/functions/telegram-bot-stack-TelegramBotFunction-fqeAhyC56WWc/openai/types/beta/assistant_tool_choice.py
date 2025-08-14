@@ -1,16 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing import Optional
-from typing_extensions import Literal
-
-from ..._models import BaseModel
-from .assistant_tool_choice_function import AssistantToolChoiceFunction
-
-__all__ = ["AssistantToolChoice"]
-
-
-class AssistantToolChoice(BaseModel):
-    type: Literal["function", "code_interpreter", "file_search"]
-    """The type of the tool. If type is `function`, the function name must be set"""
-
-    function: Optional[AssistantToolChoiceFunction] = None
+version https://git-lfs.github.com/spec/v1
+oid sha256:1f2e0721f3d00a4583f15aee1c789cb9392898dc258c61ef8901e4dfaa6b2a18
+size 544

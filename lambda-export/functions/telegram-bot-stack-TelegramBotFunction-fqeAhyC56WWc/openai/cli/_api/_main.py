@@ -1,16 +1,3 @@
-from __future__ import annotations
-
-from argparse import ArgumentParser
-
-from . import chat, audio, files, image, models, completions
-
-
-def register_commands(parser: ArgumentParser) -> None:
-    subparsers = parser.add_subparsers(help="All API subcommands")
-
-    chat.register(subparsers)
-    image.register(subparsers)
-    audio.register(subparsers)
-    files.register(subparsers)
-    models.register(subparsers)
-    completions.register(subparsers)
+version https://git-lfs.github.com/spec/v1
+oid sha256:e72c9f2d446a08468037c07ad601daa9501a620b726fd5ead27710dcfd81021d
+size 451

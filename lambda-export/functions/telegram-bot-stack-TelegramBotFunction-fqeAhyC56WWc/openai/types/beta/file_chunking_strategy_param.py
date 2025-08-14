@@ -1,13 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from __future__ import annotations
-
-from typing import Union
-from typing_extensions import TypeAlias
-
-from .auto_file_chunking_strategy_param import AutoFileChunkingStrategyParam
-from .static_file_chunking_strategy_param import StaticFileChunkingStrategyParam
-
-__all__ = ["FileChunkingStrategyParam"]
-
-FileChunkingStrategyParam: TypeAlias = Union[AutoFileChunkingStrategyParam, StaticFileChunkingStrategyParam]
+version https://git-lfs.github.com/spec/v1
+oid sha256:3f4c78236841ff295b4b114512646a830b68dc7410b07228917dd4d22b3f6bdb
+size 498

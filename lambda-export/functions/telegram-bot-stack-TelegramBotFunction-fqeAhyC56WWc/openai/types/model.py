@@ -1,21 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing_extensions import Literal
-
-from .._models import BaseModel
-
-__all__ = ["Model"]
-
-
-class Model(BaseModel):
-    id: str
-    """The model identifier, which can be referenced in the API endpoints."""
-
-    created: int
-    """The Unix timestamp (in seconds) when the model was created."""
-
-    object: Literal["model"]
-    """The object type, which is always "model"."""
-
-    owned_by: str
-    """The organization that owns the model."""
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ccc3c2b0431f01e92eac008d37f03d3177392661d639fabd283210941b897ac
+size 532

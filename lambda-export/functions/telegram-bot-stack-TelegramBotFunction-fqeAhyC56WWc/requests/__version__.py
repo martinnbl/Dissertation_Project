@@ -1,14 +1,3 @@
-# .-. .-. .-. . . .-. .-. .-. .-.
-# |(  |-  |.| | | |-  `-.  |  `-.
-# ' ' `-' `-`.`-' `-' `-'  '  `-'
-
-__title__ = "requests"
-__description__ = "Python HTTP for Humans."
-__url__ = "https://requests.readthedocs.io"
-__version__ = "2.31.0"
-__build__ = 0x023100
-__author__ = "Kenneth Reitz"
-__author_email__ = "me@kennethreitz.org"
-__license__ = "Apache 2.0"
-__copyright__ = "Copyright Kenneth Reitz"
-__cake__ = "\u2728 \U0001f370 \u2728"
+version https://git-lfs.github.com/spec/v1
+oid sha256:b2c237133b7b3dac6090e5b8e4686dc0f51c968fd23bfca0b489b803be0839fc
+size 435

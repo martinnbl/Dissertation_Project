@@ -1,10 +1,3 @@
-# Protocol Buffers - Google's data interchange format
-# Copyright 2008 Google Inc.  All rights reserved.
-#
-# Use of this source code is governed by a BSD-style
-# license that can be found in the LICENSE file or at
-# https://developers.google.com/open-source/licenses/bsd
-
-# Copyright 2007 Google Inc. All Rights Reserved.
-
-__version__ = '4.25.8'
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a1f005e0d9d66a67bc39bdd4fcdd205c7982f2b87c791207948b677dcbe74dc
+size 346

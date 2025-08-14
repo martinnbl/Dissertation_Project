@@ -1,7 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing_extensions import Literal, TypeAlias
-
-__all__ = ["ImageModel"]
-
-ImageModel: TypeAlias = Literal["dall-e-2", "dall-e-3"]
+version https://git-lfs.github.com/spec/v1
+oid sha256:5b861c8648494f6c1976534352956410a83ccdd0c37e9f52de84dfe03f16afc8
+size 219

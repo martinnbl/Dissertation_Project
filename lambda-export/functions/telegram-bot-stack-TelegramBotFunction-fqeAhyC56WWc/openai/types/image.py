@@ -1,24 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing import Optional
-
-from .._models import BaseModel
-
-__all__ = ["Image"]
-
-
-class Image(BaseModel):
-    b64_json: Optional[str] = None
-    """
-    The base64-encoded JSON of the generated image, if `response_format` is
-    `b64_json`.
-    """
-
-    revised_prompt: Optional[str] = None
-    """
-    The prompt that was used to generate the image, if there was any revision to the
-    prompt.
-    """
-
-    url: Optional[str] = None
-    """The URL of the generated image, if `response_format` is `url` (default)."""
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4da3ef061deb0e51b8dc85e998d63aad33087fb36da80662d51652e7d8aa10a
+size 607

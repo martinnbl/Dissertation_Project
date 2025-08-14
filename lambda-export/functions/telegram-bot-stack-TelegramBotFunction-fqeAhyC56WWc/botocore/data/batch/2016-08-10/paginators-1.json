@@ -1,34 +1,3 @@
-{
-  "pagination": {
-    "DescribeComputeEnvironments": {
-      "input_token": "nextToken",
-      "limit_key": "maxResults",
-      "output_token": "nextToken",
-      "result_key": "computeEnvironments"
-    },
-    "DescribeJobDefinitions": {
-      "input_token": "nextToken",
-      "limit_key": "maxResults",
-      "output_token": "nextToken",
-      "result_key": "jobDefinitions"
-    },
-    "DescribeJobQueues": {
-      "input_token": "nextToken",
-      "limit_key": "maxResults",
-      "output_token": "nextToken",
-      "result_key": "jobQueues"
-    },
-    "ListJobs": {
-      "input_token": "nextToken",
-      "limit_key": "maxResults",
-      "output_token": "nextToken",
-      "result_key": "jobSummaryList"
-    },
-    "ListSchedulingPolicies": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "schedulingPolicies"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fd0d780c451a17bf98fcc120fd481ac71b73713412927f673d92cd039e547359
+size 905

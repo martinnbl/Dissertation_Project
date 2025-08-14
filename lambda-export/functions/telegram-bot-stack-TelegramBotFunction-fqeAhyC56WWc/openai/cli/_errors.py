@@ -1,21 +1,3 @@
-from __future__ import annotations
-
-import sys
-
-import pydantic
-
-from ._utils import Colors, organization_info
-from .._exceptions import APIError, OpenAIError
-
-
-class CLIError(OpenAIError): ...
-
-
-class SilentCLIError(CLIError): ...
-
-
-def display_error(err: CLIError | APIError | pydantic.ValidationError) -> None:
-    if isinstance(err, SilentCLIError):
-        return
-
-    sys.stderr.write("{}{}Error:{} {}\n".format(organization_info(), Colors.FAIL, Colors.ENDC, err))
+version https://git-lfs.github.com/spec/v1
+oid sha256:9de8e5bb51e73b2008af69fbbaaa45b569fc5dc9568fff4df05c207d3dc13caf
+size 471

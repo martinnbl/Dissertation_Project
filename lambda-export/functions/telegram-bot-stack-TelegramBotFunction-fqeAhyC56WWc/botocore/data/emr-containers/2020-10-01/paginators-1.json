@@ -1,34 +1,3 @@
-{
-  "pagination": {
-    "ListJobRuns": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "jobRuns"
-    },
-    "ListManagedEndpoints": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "endpoints"
-    },
-    "ListVirtualClusters": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "virtualClusters"
-    },
-    "ListJobTemplates": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "templates"
-    },
-    "ListSecurityConfigurations": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "securityConfigurations"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1fea81f9155f67ebfaba2be992893a8dd2fd46c2fdc876660e1746e217623ed5
+size 889

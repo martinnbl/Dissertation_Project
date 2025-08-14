@@ -1,31 +1,3 @@
-{
-    "version": 1.0,
-    "merge": {
-      "pagination": {
-        "ListServiceDependencies": {
-          "non_aggregate_keys": [
-            "StartTime",
-            "EndTime"
-          ]
-        },
-        "ListServiceDependents": {
-            "non_aggregate_keys": [
-              "StartTime",
-              "EndTime"
-            ]
-          },
-          "ListServiceOperations": {
-            "non_aggregate_keys": [
-              "StartTime",
-              "EndTime"
-            ]
-          },
-          "ListServices": {
-            "non_aggregate_keys": [
-              "StartTime",
-              "EndTime"
-            ]
-          }
-      }
-    }
-  }
+version https://git-lfs.github.com/spec/v1
+oid sha256:13e329bdf8e30d19aa029be4f165010d90962b432352e6d4653fd84d4683e677
+size 659

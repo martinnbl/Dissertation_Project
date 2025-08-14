@@ -1,12 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing_extensions import Literal
-
-from ..._models import BaseModel
-
-__all__ = ["CodeInterpreterTool"]
-
-
-class CodeInterpreterTool(BaseModel):
-    type: Literal["code_interpreter"]
-    """The type of tool being defined: `code_interpreter`"""
+version https://git-lfs.github.com/spec/v1
+oid sha256:ee681073d3ad0ff6549d978d868a1b3057269afb593c508d60607e3c49cd9dfb
+size 333

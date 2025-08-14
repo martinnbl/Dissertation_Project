@@ -1,15 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing_extensions import Literal
-
-from ..._models import BaseModel
-
-__all__ = ["VectorStoreDeleted"]
-
-
-class VectorStoreDeleted(BaseModel):
-    id: str
-
-    deleted: bool
-
-    object: Literal["vector_store.deleted"]
+version https://git-lfs.github.com/spec/v1
+oid sha256:62ad04d68ad12d286c78bc19d5d7a205d0c4520130fed7185711986b981b22b3
+size 308

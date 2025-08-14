@@ -1,19 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing import List
-
-from .._models import BaseModel
-from .moderation import Moderation
-
-__all__ = ["ModerationCreateResponse"]
-
-
-class ModerationCreateResponse(BaseModel):
-    id: str
-    """The unique identifier for the moderation request."""
-
-    model: str
-    """The model used to generate the moderation results."""
-
-    results: List[Moderation]
-    """A list of moderation objects."""
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ba4957d65f6fc95f6e596b40ba2a88dc9db313b4307603b723526e9c14c29cb
+size 484

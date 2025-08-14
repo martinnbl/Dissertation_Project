@@ -1,22 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing import Optional
-from typing_extensions import Literal
-
-from ...._models import BaseModel
-
-__all__ = ["ImageURLDelta"]
-
-
-class ImageURLDelta(BaseModel):
-    detail: Optional[Literal["auto", "low", "high"]] = None
-    """Specifies the detail level of the image.
-
-    `low` uses fewer tokens, you can opt in to high resolution using `high`.
-    """
-
-    url: Optional[str] = None
-    """
-    The URL of the image, must be a supported image types: jpeg, jpg, png, gif,
-    webp.
-    """
+version https://git-lfs.github.com/spec/v1
+oid sha256:3170a9f8e9ae353e278db580f435806e870fee90f756975c532db081e3a3c26e
+size 582

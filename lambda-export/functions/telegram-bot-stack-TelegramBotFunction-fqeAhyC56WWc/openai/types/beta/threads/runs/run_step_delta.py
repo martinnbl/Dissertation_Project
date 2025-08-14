@@ -1,20 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing import Union, Optional
-from typing_extensions import Annotated, TypeAlias
-
-from ....._utils import PropertyInfo
-from ....._models import BaseModel
-from .tool_call_delta_object import ToolCallDeltaObject
-from .run_step_delta_message_delta import RunStepDeltaMessageDelta
-
-__all__ = ["RunStepDelta", "StepDetails"]
-
-StepDetails: TypeAlias = Annotated[
-    Union[RunStepDeltaMessageDelta, ToolCallDeltaObject], PropertyInfo(discriminator="type")
-]
-
-
-class RunStepDelta(BaseModel):
-    step_details: Optional[StepDetails] = None
-    """The details of the run step."""
+version https://git-lfs.github.com/spec/v1
+oid sha256:14d6034dd751ad33b73d3fdf822ec0b09d4f78cb725ac573731a228636c1cc0c
+size 663

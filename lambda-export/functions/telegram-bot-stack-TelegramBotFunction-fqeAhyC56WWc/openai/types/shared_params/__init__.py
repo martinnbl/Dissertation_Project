@@ -1,7 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from .function_definition import FunctionDefinition as FunctionDefinition
-from .function_parameters import FunctionParameters as FunctionParameters
-from .response_format_text import ResponseFormatText as ResponseFormatText
-from .response_format_json_object import ResponseFormatJSONObject as ResponseFormatJSONObject
-from .response_format_json_schema import ResponseFormatJSONSchema as ResponseFormatJSONSchema
+version https://git-lfs.github.com/spec/v1
+oid sha256:19c34198afc43e5184fb13c599242394eabb4ae3587769f00ecc17e04c47c285
+size 498

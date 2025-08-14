@@ -1,6 +1,3 @@
-Wheel-Version: 1.0
-Generator: setuptools (80.1.0)
-Root-Is-Purelib: false
-Tag: cp313-cp313-manylinux_2_17_x86_64
-Tag: cp313-cp313-manylinux2014_x86_64
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:9cc663f938cde4d8109c9b224973edf6066e083404d570ff49549e5cf647e0ee
+size 151

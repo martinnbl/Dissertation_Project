@@ -1,19 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing import Optional
-from typing_extensions import Literal
-
-from ...._models import BaseModel
-from .image_file_delta import ImageFileDelta
-
-__all__ = ["ImageFileDeltaBlock"]
-
-
-class ImageFileDeltaBlock(BaseModel):
-    index: int
-    """The index of the content part in the message."""
-
-    type: Literal["image_file"]
-    """Always `image_file`."""
-
-    image_file: Optional[ImageFileDelta] = None
+version https://git-lfs.github.com/spec/v1
+oid sha256:5c9d98557fdcab43a235c19b3665ced3f75c6b522f3e87243afbe833ba43bdb2
+size 492

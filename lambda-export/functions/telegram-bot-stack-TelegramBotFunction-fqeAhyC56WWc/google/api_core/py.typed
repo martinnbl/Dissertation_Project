@@ -1,2 +1,3 @@
-# Marker file for PEP 561.
-# The google-api-core package uses inline types.
+version https://git-lfs.github.com/spec/v1
+oid sha256:abc7601fd9759a85178ae7c70558ea23432e272e017bd6b7acd1fc665fec2020
+size 78

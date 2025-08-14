@@ -1,10 +1,3 @@
-{
-  "pagination": {
-    "ListPublicKeys": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "publicKeys"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bfe77b2334712f3ab71a62873b1a8e469b20e0d1da06a258c85ac99f8eb1037e
+size 191

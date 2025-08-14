@@ -1,2 +1,3 @@
-# Marker file for PEP 561.
-# The google-resumable_media package uses inline types.
+version https://git-lfs.github.com/spec/v1
+oid sha256:5c1678be4cf41ac3ed7f133a1d524af79bc6989f8e20da6d21a68107fbb7eb4a
+size 85

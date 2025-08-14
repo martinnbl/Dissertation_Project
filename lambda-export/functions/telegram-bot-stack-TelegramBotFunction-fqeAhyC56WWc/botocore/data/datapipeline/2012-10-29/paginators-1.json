@@ -1,23 +1,3 @@
-{
-  "pagination": {
-    "ListPipelines": {
-      "input_token": "marker",
-      "output_token": "marker",
-      "more_results": "hasMoreResults",
-      "result_key": "pipelineIdList"
-    },
-    "DescribeObjects": {
-      "input_token": "marker",
-      "output_token": "marker",
-      "more_results": "hasMoreResults",
-      "result_key": "pipelineObjects"
-    },
-    "QueryObjects": {
-      "input_token": "marker",
-      "output_token": "marker",
-      "more_results": "hasMoreResults",
-      "limit_key": "limit",
-      "result_key": "ids"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:25dac0ebc688ddf9cf5a1dbf79c3b10b90ed705cf83a488ef06bec064cce814c
+size 554

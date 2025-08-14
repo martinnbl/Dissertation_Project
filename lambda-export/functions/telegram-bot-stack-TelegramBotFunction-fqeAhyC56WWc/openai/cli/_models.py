@@ -1,17 +1,3 @@
-from typing import Any
-from typing_extensions import ClassVar
-
-import pydantic
-
-from .. import _models
-from .._compat import PYDANTIC_V2, ConfigDict
-
-
-class BaseModel(_models.BaseModel):
-    if PYDANTIC_V2:
-        model_config: ClassVar[ConfigDict] = ConfigDict(extra="ignore", arbitrary_types_allowed=True)
-    else:
-
-        class Config(pydantic.BaseConfig):  # type: ignore
-            extra: Any = pydantic.Extra.ignore  # type: ignore
-            arbitrary_types_allowed: bool = True
+version https://git-lfs.github.com/spec/v1
+oid sha256:b60b257631b6d7a2a9c20019e694b4b15d36150bce343254d84940e240828885
+size 491

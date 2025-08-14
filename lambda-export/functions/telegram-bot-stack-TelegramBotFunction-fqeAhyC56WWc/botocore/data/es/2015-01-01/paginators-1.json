@@ -1,34 +1,3 @@
-{
-  "pagination": {
-    "ListElasticsearchInstanceTypes": {
-      "result_key": "ElasticsearchInstanceTypes",
-      "output_token": "NextToken",
-      "input_token": "NextToken",
-      "limit_key": "MaxResults"
-    },
-    "ListElasticsearchVersions": {
-      "result_key": "ElasticsearchVersions",
-      "output_token": "NextToken",
-      "input_token": "NextToken",
-      "limit_key": "MaxResults"
-    },
-    "DescribeReservedElasticsearchInstanceOfferings": {
-      "input_token": "NextToken",
-      "limit_key": "MaxResults",
-      "output_token": "NextToken",
-      "result_key": "ReservedElasticsearchInstanceOfferings"
-    },
-    "DescribeReservedElasticsearchInstances": {
-      "input_token": "NextToken",
-      "limit_key": "MaxResults",
-      "output_token": "NextToken",
-      "result_key": "ReservedElasticsearchInstances"
-    },
-    "GetUpgradeHistory": {
-      "input_token": "NextToken",
-      "limit_key": "MaxResults",
-      "output_token": "NextToken",
-      "result_key": "UpgradeHistories"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b1b7ef7bb4187a32601c29474d8e0f81dc07e00f8f265636cb45d9d2a442abd4
+size 1022

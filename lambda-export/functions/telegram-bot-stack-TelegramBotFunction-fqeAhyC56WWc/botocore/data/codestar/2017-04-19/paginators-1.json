@@ -1,28 +1,3 @@
-{
-  "pagination": {
-    "ListProjects": {
-      "input_token": "nextToken",
-      "limit_key": "maxResults",
-      "output_token": "nextToken",
-      "result_key": "projects"
-    },
-    "ListResources": {
-      "input_token": "nextToken",
-      "limit_key": "maxResults",
-      "output_token": "nextToken",
-      "result_key": "resources"
-    },
-    "ListTeamMembers": {
-      "input_token": "nextToken",
-      "limit_key": "maxResults",
-      "output_token": "nextToken",
-      "result_key": "teamMembers"
-    },
-    "ListUserProfiles": {
-      "input_token": "nextToken",
-      "limit_key": "maxResults",
-      "output_token": "nextToken",
-      "result_key": "userProfiles"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:debfa271287fa0f015c807722e83ed9197a10105ee2b010925a9fe3c5ae5e8de
+size 689

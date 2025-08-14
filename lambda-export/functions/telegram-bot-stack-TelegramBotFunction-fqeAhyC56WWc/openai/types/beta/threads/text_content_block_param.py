@@ -1,15 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from __future__ import annotations
-
-from typing_extensions import Literal, Required, TypedDict
-
-__all__ = ["TextContentBlockParam"]
-
-
-class TextContentBlockParam(TypedDict, total=False):
-    text: Required[str]
-    """Text content to be sent to the model"""
-
-    type: Required[Literal["text"]]
-    """Always `text`."""
+version https://git-lfs.github.com/spec/v1
+oid sha256:7de42bd26b85f38e6d735ab7149af38183a15deb8a2d4df1d71e431854cdd90d
+size 407

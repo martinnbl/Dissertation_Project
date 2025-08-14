@@ -1,6 +1,3 @@
-Wheel-Version: 1.0
-Generator: setuptools (70.2.0)
-Root-Is-Purelib: true
-Tag: py2-none-any
-Tag: py3-none-any
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:d1741b355e89139ce226c5a3214f13451bf437a4a884da272d680ff3a8397e22
+size 109

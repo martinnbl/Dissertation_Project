@@ -1,19 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing import Optional
-from typing_extensions import Literal
-
-from ...._models import BaseModel
-from .text_delta import TextDelta
-
-__all__ = ["TextDeltaBlock"]
-
-
-class TextDeltaBlock(BaseModel):
-    index: int
-    """The index of the content part in the message."""
-
-    type: Literal["text"]
-    """Always `text`."""
-
-    text: Optional[TextDelta] = None
+version https://git-lfs.github.com/spec/v1
+oid sha256:a641e454180db261e2f49511cece5ac8fab14174a47b1dc5d231f432a2578a4d
+size 448

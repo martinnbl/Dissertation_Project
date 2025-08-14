@@ -1,7 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing_extensions import Literal, TypeAlias
-
-__all__ = ["EmbeddingModel"]
-
-EmbeddingModel: TypeAlias = Literal["text-embedding-ada-002", "text-embedding-3-small", "text-embedding-3-large"]
+version https://git-lfs.github.com/spec/v1
+oid sha256:d1d0cbf3b95e9f8bd9e0347a782a7b2592422698305a985198984c2b749ef1fe
+size 281

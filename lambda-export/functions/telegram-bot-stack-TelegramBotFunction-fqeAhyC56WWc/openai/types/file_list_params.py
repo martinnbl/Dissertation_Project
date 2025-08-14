@@ -1,12 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from __future__ import annotations
-
-from typing_extensions import TypedDict
-
-__all__ = ["FileListParams"]
-
-
-class FileListParams(TypedDict, total=False):
-    purpose: str
-    """Only return files with the given purpose."""
+version https://git-lfs.github.com/spec/v1
+oid sha256:56165b4ab08ed1f62751380f13f9ee072fb7039323a57881b48f816a101ce526
+size 310

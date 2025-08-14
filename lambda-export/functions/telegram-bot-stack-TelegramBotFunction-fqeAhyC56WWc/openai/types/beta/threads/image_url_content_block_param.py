@@ -1,16 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from __future__ import annotations
-
-from typing_extensions import Literal, Required, TypedDict
-
-from .image_url_param import ImageURLParam
-
-__all__ = ["ImageURLContentBlockParam"]
-
-
-class ImageURLContentBlockParam(TypedDict, total=False):
-    image_url: Required[ImageURLParam]
-
-    type: Required[Literal["image_url"]]
-    """The type of the content part."""
+version https://git-lfs.github.com/spec/v1
+oid sha256:456ce8e4a9018b0be0252be2665e89525b1fbf755028816be9ca7d96190bbbc1
+size 447

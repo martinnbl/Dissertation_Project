@@ -1,4 +1,3 @@
-Wheel-Version: 1.0
-Generator: maturin (1.8.6)
-Root-Is-Purelib: false
-Tag: cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64
+version https://git-lfs.github.com/spec/v1
+oid sha256:b8d08538981ec0d6322c98b9ccd5d575229fbf3b710f31fde34710099ae1cea2
+size 129

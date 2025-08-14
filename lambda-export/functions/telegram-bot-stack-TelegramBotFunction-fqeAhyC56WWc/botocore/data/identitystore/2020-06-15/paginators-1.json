@@ -1,28 +1,3 @@
-{
-  "pagination": {
-    "ListGroupMemberships": {
-      "input_token": "NextToken",
-      "output_token": "NextToken",
-      "limit_key": "MaxResults",
-      "result_key": "GroupMemberships"
-    },
-    "ListGroupMembershipsForMember": {
-      "input_token": "NextToken",
-      "output_token": "NextToken",
-      "limit_key": "MaxResults",
-      "result_key": "GroupMemberships"
-    },
-    "ListGroups": {
-      "input_token": "NextToken",
-      "output_token": "NextToken",
-      "limit_key": "MaxResults",
-      "result_key": "Groups"
-    },
-    "ListUsers": {
-      "input_token": "NextToken",
-      "output_token": "NextToken",
-      "limit_key": "MaxResults",
-      "result_key": "Users"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:969189431502f05a89fc9b96683487c3770c5baefba70643429a1645c06f0343
+size 704

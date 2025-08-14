@@ -1,15 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from __future__ import annotations
-
-from typing_extensions import TypedDict
-
-__all__ = ["CheckpointListParams"]
-
-
-class CheckpointListParams(TypedDict, total=False):
-    after: str
-    """Identifier for the last checkpoint ID from the previous pagination request."""
-
-    limit: int
-    """Number of checkpoints to retrieve."""
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e80cb9242825a67f96a7e6b9e8544a4d2bc9ad407ab57c7c3d12a99ecdfad73
+size 415

@@ -1,19 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing_extensions import Literal
-
-from ....._models import BaseModel
-
-__all__ = ["MessageCreationStepDetails", "MessageCreation"]
-
-
-class MessageCreation(BaseModel):
-    message_id: str
-    """The ID of the message that was created by this run step."""
-
-
-class MessageCreationStepDetails(BaseModel):
-    message_creation: MessageCreation
-
-    type: Literal["message_creation"]
-    """Always `message_creation`."""
+version https://git-lfs.github.com/spec/v1
+oid sha256:b5114c345d917f80de91596250a928ba322d88e8e3004f441bd6dbc49be954f0
+size 506

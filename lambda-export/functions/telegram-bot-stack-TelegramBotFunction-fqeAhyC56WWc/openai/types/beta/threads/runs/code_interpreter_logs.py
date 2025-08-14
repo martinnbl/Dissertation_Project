@@ -1,19 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing import Optional
-from typing_extensions import Literal
-
-from ....._models import BaseModel
-
-__all__ = ["CodeInterpreterLogs"]
-
-
-class CodeInterpreterLogs(BaseModel):
-    index: int
-    """The index of the output in the outputs array."""
-
-    type: Literal["logs"]
-    """Always `logs`."""
-
-    logs: Optional[str] = None
-    """The text output from the Code Interpreter tool call."""
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef05d9a5413d23ea192742b79851b437099f9b66ca1a24a9589c817a8eedc70a
+size 482

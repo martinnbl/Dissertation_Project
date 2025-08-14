@@ -1,11 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing import Union
-from typing_extensions import TypeAlias
-
-from .translation import Translation
-from .translation_verbose import TranslationVerbose
-
-__all__ = ["TranslationCreateResponse"]
-
-TranslationCreateResponse: TypeAlias = Union[Translation, TranslationVerbose]
+version https://git-lfs.github.com/spec/v1
+oid sha256:c7a1f4ca34db651def77777b2dd001727f67acc0cd75e3237a97235b5a147d57
+size 362

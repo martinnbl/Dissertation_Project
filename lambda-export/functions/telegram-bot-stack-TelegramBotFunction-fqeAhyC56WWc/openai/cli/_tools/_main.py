@@ -1,17 +1,3 @@
-from __future__ import annotations
-
-from typing import TYPE_CHECKING
-from argparse import ArgumentParser
-
-from . import migrate, fine_tunes
-
-if TYPE_CHECKING:
-    from argparse import _SubParsersAction
-
-
-def register_commands(parser: ArgumentParser, subparser: _SubParsersAction[ArgumentParser]) -> None:
-    migrate.register(subparser)
-
-    namespaced = parser.add_subparsers(title="Tools", help="Convenience client side tools")
-
-    fine_tunes.register(namespaced)
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5a9231171d11ea6254e697e47157b7cdad1b515f39990629e83e2d40262a456
+size 467

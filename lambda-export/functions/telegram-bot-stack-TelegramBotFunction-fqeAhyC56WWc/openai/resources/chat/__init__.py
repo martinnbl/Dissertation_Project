@@ -1,33 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from .chat import (
-    Chat,
-    AsyncChat,
-    ChatWithRawResponse,
-    AsyncChatWithRawResponse,
-    ChatWithStreamingResponse,
-    AsyncChatWithStreamingResponse,
-)
-from .completions import (
-    Completions,
-    AsyncCompletions,
-    CompletionsWithRawResponse,
-    AsyncCompletionsWithRawResponse,
-    CompletionsWithStreamingResponse,
-    AsyncCompletionsWithStreamingResponse,
-)
-
-__all__ = [
-    "Completions",
-    "AsyncCompletions",
-    "CompletionsWithRawResponse",
-    "AsyncCompletionsWithRawResponse",
-    "CompletionsWithStreamingResponse",
-    "AsyncCompletionsWithStreamingResponse",
-    "Chat",
-    "AsyncChat",
-    "ChatWithRawResponse",
-    "AsyncChatWithRawResponse",
-    "ChatWithStreamingResponse",
-    "AsyncChatWithStreamingResponse",
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:f10f4e0d1a35c08a456b7e1568dc2e696166c6a1716a00ed52120091036fc445
+size 849

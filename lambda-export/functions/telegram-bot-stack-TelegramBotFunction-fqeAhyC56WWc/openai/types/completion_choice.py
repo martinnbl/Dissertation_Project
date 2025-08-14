@@ -1,35 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing import Dict, List, Optional
-from typing_extensions import Literal
-
-from .._models import BaseModel
-
-__all__ = ["CompletionChoice", "Logprobs"]
-
-
-class Logprobs(BaseModel):
-    text_offset: Optional[List[int]] = None
-
-    token_logprobs: Optional[List[float]] = None
-
-    tokens: Optional[List[str]] = None
-
-    top_logprobs: Optional[List[Dict[str, float]]] = None
-
-
-class CompletionChoice(BaseModel):
-    finish_reason: Literal["stop", "length", "content_filter"]
-    """The reason the model stopped generating tokens.
-
-    This will be `stop` if the model hit a natural stop point or a provided stop
-    sequence, `length` if the maximum number of tokens specified in the request was
-    reached, or `content_filter` if content was omitted due to a flag from our
-    content filters.
-    """
-
-    index: int
-
-    logprobs: Optional[Logprobs] = None
-
-    text: str
+version https://git-lfs.github.com/spec/v1
+oid sha256:3d493bed3dc2a77e142525e831f4b34ca1960cad2b410c2af385ff3d294e509a
+size 965

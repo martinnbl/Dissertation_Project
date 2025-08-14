@@ -1,17 +1,3 @@
-# Copyright 2023 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-#
-# Licensed under the Apache License, Version 2.0 (the "License"). You
-# may not use this file except in compliance with the License. A copy of
-# the License is located at
-#
-# https://aws.amazon.com/apache2.0/
-#
-# or in the "license" file accompanying this file. This file is
-# distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
-# ANY KIND, either express or implied. See the License for the specific
-# language governing permissions and limitations under the License.
-
-
-# TransferConfig preferred_transfer_client settings
-CLASSIC_TRANSFER_CLIENT = "classic"
-AUTO_RESOLVE_TRANSFER_CLIENT = "auto"
+version https://git-lfs.github.com/spec/v1
+oid sha256:65a6249cdc2a1b0b0910690bf76197681b3d9237d16f208316df3dc1e8bcb7b1
+size 690

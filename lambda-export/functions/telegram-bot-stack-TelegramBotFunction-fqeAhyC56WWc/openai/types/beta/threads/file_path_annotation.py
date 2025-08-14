@@ -1,26 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing_extensions import Literal
-
-from ...._models import BaseModel
-
-__all__ = ["FilePathAnnotation", "FilePath"]
-
-
-class FilePath(BaseModel):
-    file_id: str
-    """The ID of the file that was generated."""
-
-
-class FilePathAnnotation(BaseModel):
-    end_index: int
-
-    file_path: FilePath
-
-    start_index: int
-
-    text: str
-    """The text in the message content that needs to be replaced."""
-
-    type: Literal["file_path"]
-    """Always `file_path`."""
+version https://git-lfs.github.com/spec/v1
+oid sha256:84d73879ba6b2729ea306d7293480bbe0cd3a63b55ce011b5eb88c65fb6481ec
+size 552

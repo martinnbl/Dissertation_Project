@@ -1,22 +1,3 @@
-{
-  "pagination": {
-    "GetFindings": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "findings"
-    },
-    "ListFindingsMetrics": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "findingsMetrics"
-    },
-    "ListScans": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "summaries"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f00a9f39e31ed0e298c89d9824f66a58a23f418857f4f5e9114d739b994e064
+size 522

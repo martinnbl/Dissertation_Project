@@ -1,15 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing_extensions import Literal
-
-from ..._models import BaseModel
-from ..shared.function_definition import FunctionDefinition
-
-__all__ = ["FunctionTool"]
-
-
-class FunctionTool(BaseModel):
-    function: FunctionDefinition
-
-    type: Literal["function"]
-    """The type of tool being defined: `function`"""
+version https://git-lfs.github.com/spec/v1
+oid sha256:a181897dc7cfa54a212b0da2920b210e3388d475c22bee69016c9e81835ecde5
+size 397

@@ -1,13 +1,3 @@
-#
-# This file is part of pyasn1 software.
-#
-# Copyright (c) 2005-2020, Ilya Etingof <etingof@gmail.com>
-# License: https://pyasn1.readthedocs.io/en/latest/license.html
-#
-def to_bytes(value, signed=False, length=0):
-    length = max(value.bit_length(), length)
-
-    if signed and length % 8 == 0:
-        length += 1
-
-    return value.to_bytes(length // 8 + (length % 8 and 1 or 0), 'big', signed=signed)
+version https://git-lfs.github.com/spec/v1
+oid sha256:94c5ea6c9053ca3837e11871e89945717ca84310da7971b185a20869bf3a857f
+size 404

@@ -1,22 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing import List, Optional
-
-from ..._models import BaseModel
-from .transcription_segment import TranscriptionSegment
-
-__all__ = ["TranslationVerbose"]
-
-
-class TranslationVerbose(BaseModel):
-    duration: str
-    """The duration of the input audio."""
-
-    language: str
-    """The language of the output translation (always `english`)."""
-
-    text: str
-    """The translated text."""
-
-    segments: Optional[List[TranscriptionSegment]] = None
-    """Segments of the translated text and their corresponding details."""
+version https://git-lfs.github.com/spec/v1
+oid sha256:89cea1eff7c02a5cab26e0a06dde15b6bd2993d3a7ca740afeea1b0fd940199a
+size 613

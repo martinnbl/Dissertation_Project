@@ -1,17 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-
-from ..._models import BaseModel
-
-__all__ = ["TranscriptionWord"]
-
-
-class TranscriptionWord(BaseModel):
-    end: float
-    """End time of the word in seconds."""
-
-    start: float
-    """Start time of the word in seconds."""
-
-    word: str
-    """The text content of the word."""
+version https://git-lfs.github.com/spec/v1
+oid sha256:b0d0ddb63a2a2226daeaa2ac0ff948d857ecd4bafba8ff47c92e7d0058797137
+size 368

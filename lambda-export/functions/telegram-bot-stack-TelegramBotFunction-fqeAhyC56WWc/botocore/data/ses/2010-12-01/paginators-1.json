@@ -1,33 +1,3 @@
-{
-  "pagination": {
-    "ListIdentities": {
-      "input_token": "NextToken",
-      "output_token": "NextToken",
-      "limit_key": "MaxItems",
-      "result_key": "Identities"
-    },
-    "ListCustomVerificationEmailTemplates": {
-      "result_key": "CustomVerificationEmailTemplates",
-      "output_token": "NextToken",
-      "input_token": "NextToken",
-      "limit_key": "MaxResults"
-    },
-    "ListConfigurationSets": {
-      "input_token": "NextToken",
-      "limit_key": "MaxItems",
-      "output_token": "NextToken",
-      "result_key": "ConfigurationSets"
-    },
-    "ListReceiptRuleSets": {
-      "input_token": "NextToken",
-      "output_token": "NextToken",
-      "result_key": "RuleSets"
-    },
-    "ListTemplates": {
-      "input_token": "NextToken",
-      "limit_key": "MaxItems",
-      "output_token": "NextToken",
-      "result_key": "TemplatesMetadata"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1bfeead8a1433f42f0c045280a077daa29306251e8685c038d0ff70ad58154fc
+size 883

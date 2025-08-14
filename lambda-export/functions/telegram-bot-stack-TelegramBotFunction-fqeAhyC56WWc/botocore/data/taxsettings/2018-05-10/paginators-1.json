@@ -1,10 +1,3 @@
-{
-  "pagination": {
-    "ListTaxRegistrations": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "accountDetails"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb09e87ba1f08ba216142d2bf29b316b225afbcc83db6d0a1ee4acd7080abb76
+size 201

@@ -1,28 +1,3 @@
-{
-  "pagination": {
-    "GetDataLakeSources": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "dataLakeSources"
-    },
-    "ListDataLakeExceptions": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "exceptions"
-    },
-    "ListLogSources": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "sources"
-    },
-    "ListSubscribers": {
-      "input_token": "nextToken",
-      "output_token": "nextToken",
-      "limit_key": "maxResults",
-      "result_key": "subscribers"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b0fd1956e8111fab183359438917a66b0937f8f66be327db809a179f57fda48
+size 705

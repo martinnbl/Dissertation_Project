@@ -1,15 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing_extensions import Literal
-
-from ..._models import BaseModel
-
-__all__ = ["AssistantDeleted"]
-
-
-class AssistantDeleted(BaseModel):
-    id: str
-
-    deleted: bool
-
-    object: Literal["assistant.deleted"]
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d34d497914f1d3048e67466eddd2c1ae47d5424810d9f886ce9fd1bf2299894
+size 301

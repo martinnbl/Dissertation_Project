@@ -1,15 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from __future__ import annotations
-
-from typing_extensions import Literal, Required, TypedDict
-
-__all__ = ["ChatCompletionContentPartTextParam"]
-
-
-class ChatCompletionContentPartTextParam(TypedDict, total=False):
-    text: Required[str]
-    """The text content."""
-
-    type: Required[Literal["text"]]
-    """The type of the content part."""
+version https://git-lfs.github.com/spec/v1
+oid sha256:e08a625cc28cf40b93ca8a793d1a6d3c16c1861f6cf77c72daf8e0e18c3a348c
+size 429

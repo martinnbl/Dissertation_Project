@@ -1,12 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from __future__ import annotations
-
-from typing_extensions import Literal, Required, TypedDict
-
-__all__ = ["ResponseFormatJSONObject"]
-
-
-class ResponseFormatJSONObject(TypedDict, total=False):
-    type: Required[Literal["json_object"]]
-    """The type of response format being defined: `json_object`"""
+version https://git-lfs.github.com/spec/v1
+oid sha256:413e2e2422bb4733771cad7b7868c4a37ea32ca3880413468e25fecc86bd893e
+size 390

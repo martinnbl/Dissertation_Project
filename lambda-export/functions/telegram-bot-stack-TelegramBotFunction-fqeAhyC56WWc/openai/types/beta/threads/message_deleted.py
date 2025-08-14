@@ -1,15 +1,3 @@
-# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
-
-from typing_extensions import Literal
-
-from ...._models import BaseModel
-
-__all__ = ["MessageDeleted"]
-
-
-class MessageDeleted(BaseModel):
-    id: str
-
-    deleted: bool
-
-    object: Literal["thread.message.deleted"]
+version https://git-lfs.github.com/spec/v1
+oid sha256:0cd9eb49f199de45846b39a8e2655374b8622a5207c6cf83f047f9b0d747635a
+size 303
