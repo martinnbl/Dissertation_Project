@@ -12,28 +12,23 @@ This data engineering project focused on developing a data pipeline to extract, 
 ## Components
 
 ### AWS Lambda Functions (`/aws-lambda/`)
-- **telegram-bot-stack-TelegramBotFunction:** [Communicates with influencers via Telegram to retrieve Social Media metrics]
-- **contract-payment-processor:** [Evaluates contracts that have reached the metrics in order to release payments] 
-- **Contract_to_JSON:** [Transform PDF Contracts into JSON Files to mantain contracts DDBB]
-
-### Database (`/database/`)
-[Database structure and schemas]
-
-### Documentation (`/docs/`)
-- Architecture diagrams
-- API documentation
-- Deployment guides
-
-## Getting Started
-[Instructions for running/deploying your project]
+- **telegram-bot-stack-TelegramBotFunction:** Communicates with influencers via Telegram to retrieve Social Media metrics
+- **contract-payment-processor:** Evaluates contracts that have reached the metrics in order to release payments
+- **Contract_to_JSON:** Transform PDF Contracts into JSON Files to mantain contracts DDBB
 
 ## Technologies Used
-- AWS Lambda
-- [Database technology]
-- [Other technologies]
+- airSlate Workflows
+- AWS Lambda Functions
+- Social Media API Key's
+- OpenAI API
+- Telegram bot's
+- Google BigQuery
+- Google WebApp Scripts
+- Google Looker Studio
+- NLP
 
 ## Dissertation Information
-- **University:** [University College London]
-- **Degree:** [MSc in Business Analytics]
-- **Year:** [2025]
-- **Supervisor:** [Niall Roche]
+- **University:** University College London
+- **Degree:** MSc in Business Analytics
+- **Year:** 2025
+- **Supervisor:** Niall Roche
